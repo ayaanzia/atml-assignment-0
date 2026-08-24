@@ -1,0 +1,33 @@
+# data
+data/*
+!data/.gitkeep
+
+# weights / checkpoints
+weights/*
+!weights/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# python
+__pycache__/
+*.pyc
+venv/
+.venv
+.venv/
+.env
+
+# jupyter
+.ipynb_checkpoints/
+
+# misc outputs
+checkpoints/
+outputs/
+wandb/
+
+# os
+.DS_Store
+
+# assignment doc
+PA0.pdf
